@@ -6,7 +6,12 @@
 
 .image {
   vertical-align: baseline;
-  max-width: none;
+  width: 90%;
+  min-width: 90%;
+  max-width: 90%;
+  height: auto;
+  min-height: auto;
+  max-height: none;
   margin-top: 0;
   margin-left: 0;
   padding-top: 0;
@@ -30,6 +35,7 @@
 .div-block-3 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  color: #000;
   mix-blend-mode: normal;
   flex-flow: wrap;
   grid-template-rows: auto auto;
@@ -37,6 +43,12 @@
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-width: auto;
+  max-width: none;
+  height: 100%;
+  min-height: auto;
+  max-height: none;
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0;
@@ -53,9 +65,11 @@
 }
 
 .form-block {
-  margin-top: -195px;
+  width: auto;
+  max-width: 6%;
+  margin-top: -12.85%;
   margin-bottom: 0;
-  margin-left: -307px;
+  margin-left: -28%;
   display: block;
   position: absolute;
   top: 50%;
@@ -68,40 +82,48 @@
   background-color: #ff00004d;
   background-clip: border-box;
   border: 0 #000;
-  padding-right: 79px;
-  font-size: 22.2px;
+  margin-bottom: 0;
+  padding: 0 71% 0 0;
+  font-size: 30%;
+  font-weight: 400;
   line-height: 24px;
 }
 
 .form {
-  margin-top: 56px;
+  margin-top: 15%;
   margin-bottom: 0;
-  margin-left: -69px;
+  margin-left: -19.5%;
   line-height: 20px;
 }
 
 .text-field-2 {
   outline-offset: 0px;
+  color: #000;
   background-color: #00ff222e;
   border: 0 #000;
   border-radius: 0;
   outline: 0 #000;
-  padding-right: 79px;
-  font-size: 21px;
+  padding-left: 0;
+  padding-right: 0%;
+  font-size: 30%;
   line-height: 24px;
 }
 
 .image-2 {
-  margin-top: -82px;
-  margin-left: -378px;
+  width: 30%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: -40.8%;
   position: absolute;
   top: 50%;
   left: 50%;
 }
 
 .image-3 {
-  margin-top: -142px;
-  margin-left: -378px;
+  width: 30%;
+  height: auto;
+  margin-top: -16%;
+  margin-left: -40.8%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -109,8 +131,10 @@
 
 .image-4 {
   flex: 0 auto;
-  margin-top: -22px;
-  margin-left: -216px;
+  width: auto;
+  height: 5%;
+  margin-top: -4%;
+  margin-left: -21.68%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -119,7 +143,8 @@
 .field-label {
   color: #bb1d1d00;
   border: 0 #000;
-  line-height: 7px;
+  margin-bottom: 13%;
+  line-height: 0;
 }
 
 .submit-button {
@@ -143,6 +168,7 @@
 }
 
 .div-block-4 {
+  z-index: auto;
   width: auto;
   min-width: 100%;
   max-width: none;
@@ -151,4 +177,45 @@
   margin-left: 0;
   position: absolute;
   overflow: visible;
+}
+
+.image-5 {
+  width: 31.4%;
+  font-weight: 400;
+  position: absolute;
+  inset: 51% 0% 0% 8.5%;
+}
+
+.form-block-2 {
+  position: absolute;
+}
+
+.form-2 {
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.form-block-3 {
+  position: absolute;
+  top: 28%;
+  left: 9%;
+}
+
+.text-field-3 {
+  background-color: #00ff3347;
+  border: 0 #000;
+  margin-bottom: 6%;
+  padding: 3% 5%;
+}
+
+.text-field-4 {
+  background-color: #ff000036;
+  border: 0 #000;
+  margin-bottom: 0%;
+  padding: 3% 5%;
+}
+
+.form-3 {
+  position: static;
+  inset: 0% auto auto 0%;
 }
